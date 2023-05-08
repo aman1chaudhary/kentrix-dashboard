@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kentrix-dashboard/static/css/main.c6043964.css",
+    "main.js": "/kentrix-dashboard/static/js/main.51500df4.js",
+    "static/media/logo.jpeg": "/kentrix-dashboard/static/media/logo.684f97431e58e99b928e.jpeg",
+    "index.html": "/kentrix-dashboard/index.html",
+    "main.c6043964.css.map": "/kentrix-dashboard/static/css/main.c6043964.css.map",
+    "main.51500df4.js.map": "/kentrix-dashboard/static/js/main.51500df4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6043964.css",
+    "static/js/main.51500df4.js"
+  ]
+}
