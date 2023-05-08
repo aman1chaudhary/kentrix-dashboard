@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kentrix-dashboard/static/css/main.f5ea5134.css",
-    "main.js": "/kentrix-dashboard/static/js/main.e3610fc2.js",
+    "main.css": "/kentrix-dashboard/static/css/main.82360f77.css",
+    "main.js": "/kentrix-dashboard/static/js/main.c3549b3d.js",
     "static/media/logo.jpeg": "/kentrix-dashboard/static/media/logo.684f97431e58e99b928e.jpeg",
     "index.html": "/kentrix-dashboard/index.html",
-    "main.f5ea5134.css.map": "/kentrix-dashboard/static/css/main.f5ea5134.css.map",
-    "main.e3610fc2.js.map": "/kentrix-dashboard/static/js/main.e3610fc2.js.map"
+    "main.82360f77.css.map": "/kentrix-dashboard/static/css/main.82360f77.css.map",
+    "main.c3549b3d.js.map": "/kentrix-dashboard/static/js/main.c3549b3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5ea5134.css",
-    "static/js/main.e3610fc2.js"
+    "static/css/main.82360f77.css",
+    "static/js/main.c3549b3d.js"
   ]
 }
