@@ -1,0 +1,106 @@
+﻿Feature_Name,Value
+Kentrix >> Regio_Type >> 01: Cosmopolitan Urban Area,0
+Kentrix >> 08: Urban Dependants >> Lifestyle,1.00717E-05
+Kentrix >> Health_Care >> No,2.00777E-05
+"Kentrix >> Income >> 01: Low INR <20,000",2.20738E-05
+Kentrix >> Packaged_Food >> No,3.98537E-05
+"Kentrix >> Real_Estate >> 01: Inr 15,00,000 – 25,00,000",5.35706E-05
+"Kentrix >> Fashion_Apparel >> 01: ""Economy"" Inr 500 – 800",6.8136E-05
+Kentrix >> Cosmetics >> No,7.17418E-05
+Kentrix >> Real_Estate >> No,7.62436E-05
+Kentrix >> Sec_Reference >> 11: Sec E2,0.000110284
+Kentrix >> Fashion_Apparel >> No,0.000179307
+Kentrix >> Lifestyle >> 06: Upcoming Urban Climbers,0.000355699
+Kentrix >> Laundry_Washing_Machine >> Yes,0.000479614
+Kentrix >> Automobile >> 12: Second-Hand Luxury Premium Sedan & Suv Segment,0.000705567
+"Kentrix >> Income >> 02: Medium Low INR 20,000 – 40,000",0.000803365
+Kentrix >> Two_Wheeler_8 >> Yes,0.000842758
+"Kentrix >> Automobile >> 09: Luxury Premium Sedan & Suv Segment Inr 25,00,000+",0.001088702
+Kentrix >> Two_Wheeler_9 >> Yes,0.001111082
+Kentrix >> Jewellery_Total >> No,0.001179183
+Kentrix >> Laundry >> No,0.00148448
+Kentrix >> Sec_Reference >> 06: Sec C1,0.001535046
+Kentrix >> Two_Wheeler_10 >> Yes,0.001598663
+Kentrix >> Financial Banking Credit_Card >> No,0.001793724
+Kentrix >> Lifestyle >> 05: Successful Urban Fast Climbers,0.00183747
+Kentrix >> Health_Care >> 02: Health Care - The Carefree / Anxious In Urban India,0.001889076
+Kentrix >> Insurance_Health >> Yes,0.001910251
+"Kentrix >> Automobile >> 02: Entry Premium Hatch Segment Inr 4,00,000 – 7,00,000",0.002058077
+"Kentrix >> Automobile >> 08: Suv Segment Inr 15,00,000 – 30,00,000",0.002321811
+Kentrix >> Packaged_Food >> 02: Premium Classified Products,0.002449601
+Kentrix >> Packaged_Food >> 01: Mass Classified Products,0.002478348
+Kentrix >> Sec_Reference >> 01: Sec A1,0.002492793
+"Kentrix >> Automobile >> 06: Premium Sedan Segment Inr 13,00,000 – 20,00,000",0.002519532
+Kentrix >> Travel_Spend >> 02: Luxury,0.00287768
+"Kentrix >> Automobile >> 01: Entry Price - Segment Inr 2,00,000 – 4,50,000",0.002897259
+Kentrix >> Retail >> 01: High Priced,0.003389048
+Kentrix >> Personal_Wash >> 01: Mass Classified Products,0.003399736
+"Kentrix >> Income >> 07: High Inr 2,30,000 – 3,00,000",0.003548145
+"Kentrix >> Automobile >> 05: Sedan Segment Inr 8,00,000 – 13,00,000",0.003798411
+Kentrix >> Cosmetics >> 01: Mass Classified Products,0.003806431
+Kentrix >> Automobile >> 11: Second-Hand Premium Sedan / Suv Segment,0.004010267
+"Kentrix >> Automobile >> 07: Compact / Entry Suv Segment Inr 9,00,000 – 14,00,000",0.004053052
+"Kentrix >> Income >> 03: Medium Inr 40,000 – 80,000",0.004071518
+"Kentrix >> Fashion_Apparel >> 05: ""Luxury"" Inr 7,000+",0.004078142
+Kentrix >> Insurance_Saving_Plan >> Yes,0.004348767
+"Kentrix >> Fashion_Apparel >> 04: ""Super Premium"" Inr 3,500 – 7,000",0.004349063
+Kentrix >> Sec_Reference >> 08: Sec D1,0.004529982
+Kentrix >> Online_Retail >> Yes,0.004762707
+Kentrix >> Health_Care >> 01: Health Care - The Informed In Urban India,0.004956637
+Kentrix >> Sec_Reference >> 07: Sec C2,0.005014099
+"Kentrix >> Income >> 08: Very High Inr > 3,00,000 ",0.005347632
+Kentrix >> Two_Wheeler_7 >> Yes,0.005465812
+Kentrix >> Jewellery_Gold >> 03: Moderately Priced Gold Jewellery,0.005528466
+Kentrix >> Laundry >> 01: Mass Fabric Products,0.005559023
+"Kentrix >> Fashion_Apparel >> 02: “Medium"" Inr 800 – 1,500",0.00560476
+Kentrix >> Laundry >> 02: Premium Fabric Products,0.005710089
+Kentrix >> Personal_Wash >> 02: Popular Classified Products,0.005944911
+Kentrix >> Travel_Destination >> 01: International,0.006144238
+Kentrix >> Two_Wheeler_1 >> Yes,0.006198645
+Kentrix >> Jewellery_Total >> 02: Traditional / Non-Branded Jewellery,0.006381254
+Kentrix >> Jewellery_Gold >> No,0.006766305
+Kentrix >> Cosmetics >> 03: Premium Classified Products,0.006919856
+Kentrix >> Financial Banking Credit_Card >> 03: Expected Heavy / Frequent Use,0.006957177
+Kentrix >> Insurance_Unit_Linked_Plan >> Yes,0.007323211
+Kentrix >> Two_Wheeler_2 >> Yes,0.00769797
+Kentrix >> Travel_Destination_Special >> Yes,0.007746512
+Kentrix >> Financial Banking Credit_Card >> 01: Expected Rare / Irregular Use,0.007887734
+Kentrix >> Jewellery_Diamond >> 05: Moderately Priced Diamond Jewellery,0.008068496
+Kentrix >> Jewellery_Gold >> 04: High Priced Gold Jewellery,0.008276584
+"Kentrix >> Real_Estate >> 02: Inr 25,00,000 – 50,00,000",0.008423859
+Kentrix >> Lifestyle >> 04: Conservative Urban Middle Class,0.008590371
+Kentrix >> Personal_Wash >> 03: Premium Classified Products,0.008718143
+Kentrix >> Lifestyle >> 01: Urban Established Elite,0.008733019
+Kentrix >> Sec_Reference >> 03: Sec A3,0.008957125
+Kentrix >> Sec_Reference >> 02: Sec A2,0.009131341
+Kentrix >> Automobile >> 10: Second-Hand Sedan Segment Car,0.009255804
+Kentrix >> Two_Wheeler_4 >> Yes,0.009305985
+Kentrix >> Sec_Reference >> 05: Sec B2,0.010095741
+Kentrix >> Jewellery_Diamond >> No,0.010272537
+Kentrix >> Two_Wheeler_3 >> Yes,0.010566373
+Kentrix >> Two_Wheeler_6 >> Yes,0.011203987
+Kentrix >> Two_Wheeler_5 >> Yes,0.01162933
+"Kentrix >> Income >> 06: Very Good Inr 1,70,000 – 2,30,000",0.012132097
+Kentrix >> Retail >> No,0.012149548
+Kentrix >> Banking_Product_Fixed_Deposit >> Yes,0.013492069
+Kentrix >> Jewellery_Diamond >> 06: High Priced Diamond Jewellery,0.013589412
+Kentrix >> Real_Estate >> 04: Inr 1 - 4 Crore,0.014523181
+Kentrix >> Jewellery_Total >> 01: Branded Jewellery,0.015248613
+Kentrix >> Insurance_Retirement_Plan >> Yes,0.015975786
+Kentrix >> Travel_Spend >> No,0.016377444
+Kentrix >> Lifestyle >> 02: Urban New Wealth,0.019013825
+Kentrix >> Banking_Product_Mutual_Fund >> Yes,0.019935063
+Kentrix >> Travel_Destination >> No,0.02062235
+"Kentrix >> Income >> 05: Good Inr 1,30,000 – 1,70,000 ",0.021044172
+Kentrix >> Financial Banking Credit_Card >> 02: Expected Moderate / Average Use,0.023007256
+Kentrix >> Sec_Reference >> 04: Sec B1,0.023900763
+Kentrix >> Cosmetics >> 02: Popular Classified Products,0.024793474
+Kentrix >> Lifestyle >> 03: Aspiring Urban Middle Class,0.028665345
+"Kentrix >> Automobile >> 04: Compact Sedan Segment Inr 5,30,000 – 8,50,000",0.031035211
+"Kentrix >> Fashion_Apparel >> 03: ""Premium"" Inr 1,500 – 3,500",0.031355298
+"Kentrix >> Real_Estate >> 03: Inr 51,00,000 - 1 Crore",0.031809656
+"Kentrix >> Automobile >> 03: Premium Hatch Segment Inr 5,50,000 – 9,00,000",0.039933386
+Kentrix >> Retail >> 02: Moderate Priced,0.049625582
+Kentrix >> Travel_Destination >> 01: National,0.056131322
+Kentrix >> Travel_Spend >> 01: Basic,0.056605422
+"Kentrix >> Income >> 04: Medium Good Inr 80,000 – 1,30,000",0.057144293
