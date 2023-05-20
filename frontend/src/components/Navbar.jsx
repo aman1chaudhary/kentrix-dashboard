@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 import Logo from "../assets/images/logo.jpeg"
 import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({ user, setLoginUser }) => {
+    // console.log(user)
     return (
         <div className='navbar_container'>
             <div className="navbar">
@@ -12,10 +13,27 @@ const Navbar = () => {
 
 
                 <div className="nav_menu">
-                    <div className="login_btn">
-                        
-                        <Link to="/login"><button>Login</button></Link>
-                    </div>
+
+
+                    {user && user.id ? (
+                        <>
+                            <div className="profile_btn">
+                                <p>Hey! {user.name}</p>
+                            </div>
+
+                        </>
+                    ) : (
+                        <>
+                            <div className="login_btn">
+                                <Link to="/login" >
+                                    Login
+                                </Link>
+
+                            </div>
+                        </>
+                    )}
+
+
                 </div>
 
             </div>

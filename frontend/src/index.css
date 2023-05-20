@@ -15,11 +15,25 @@ p {
 }
 
 .navbar_container {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-color: #FFF;
     /* padding: 5px; */
     align-items: center;
-    z-index: 100;
+    z-index: 10000000;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); */
+    border-bottom: 2px dashed black;
+}
+.page_conatiner{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+.right_content{
+    width: 85vw;
+    height: 90vh;
+    overflow: scroll;
+    background-color: whitesmoke;
+
 }
 
 a {
@@ -43,6 +57,53 @@ a {
     width: 100%;
 }
 
+.profile_btn p{
+    border-radius: 20px;
+    box-shadow: 0 1px 1px ;
+    border: 1px solid #008ecf;
+    background: #008ecf;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-color: #000000;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+
+
+}
+
+.profile_btn:hover .profile_data{
+    display: block;
+}
+
+.profile_data {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 10px;
+    right: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-top: 2px solid rgb(2, 33, 105);
+  
+  }
+
+.login_btn a{
+    border-radius: 20px;
+    box-shadow: 0 1px 1px ;
+    border: 1px solid #008ecf;
+    background: #008ecf;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-color: #000000;
+    text-decoration: none;
+}
+
+
 .login_btn button {
     border: none;
     font-size: 20px;
@@ -63,10 +124,8 @@ a {
     align-items: center;
 }
 
-.main_container {
-    /* margin: 0px 5vw; */
-    height: 90vh;
-}
+
+
 
 
 
@@ -148,26 +207,26 @@ a {
 
 
 .input_para {
-    display: flex;
-    background-color: antiquewhite;
-    /* padding: 0px 10px; */
-    height: 10vh;
+    background: linear-gradient(to right, #008ecf, #008ecf) no-repeat 0 0 / cover;
+    min-height: 10vh;
+    padding: 10px;
     align-items: center;
+    color: white;
+    display: flex;
+    
 }
 
 .input_item {
-    margin: 10px;
-    margin-right: 20px;
-    /* width: 40%; */
-    display: flex;
+   margin: auto 20px;
+    /* display: flex; */
 }
 
 
 
-input[type="file"]
+/* input[type="file"]
 {
   display: none;
-}
+} */
 .fileUpload input.upload 
 {
     display: inline-block;
@@ -188,25 +247,46 @@ input[type="file"]
     margin: 10px 0px;
 }
 
-.section_heading {
-    margin: 10px 0px;
-}
 
+
+
+.section_content{
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.section_heading {
+
+}
 .section_heading h3 {
-    display: inline;
-    border-bottom: 3px solid red;
+    /* display: inline; */
+    /* border-bottom: 3px solid #008ecf; */
+    /* text-align: center; */
+    margin-bottom: 20px;
 }
 
 .output_item {
     margin: 80px 0px;
 }
 
-.input_item_btn button {
+.input_btn{
+    background-color: #91d9fa;
+    padding: 10px;
     border: none;
-    padding: 5px 10px;
-    background: #f4a046;
-    background: linear-gradient(to bottom, #f8a44a, #d66e06);
-    color: #fafafa;
+    border-radius: 5px;
+}
+.input_item_btn button{
+    border-radius: 20px;
+    box-shadow: 0 1px 1px ;
+    border: 1px solid #008ecf;
+    background: #008ecf;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background: transparent;
+    border-color: #fff;
 
 }
 .input_item select {
@@ -227,69 +307,49 @@ input[type="file"]
 
 
 
-#score_table {
-    font-size: 20px;
-    width: 100%;
-    margin: 10px 0px;
-}
 
-#score_table td {
-    border: 1px solid #ddd;
-    padding: 5px;
-    width: 50%;
-}
-
-#score_table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-#score_table tr:hover {
-    background-color: #ddd;
-}
-
-
-
-
-
-#cohort_table th {
+.item_table th {
     padding: 5px;
     text-align: left;
-    background-color: antiquewhite;
+    background-color:  #91d9fa;
 }
 
-#cohort_table {
+.item_table  {
     border-collapse: collapse;
     width: 100%;
     margin: 10px 0px;
 }
 
-#cohort_table td,
-#cohort_table th {
+.item_table  td,
+.item_table  th {
     border: 1px solid #ddd;
     padding: 3px;
 }
 
-#cohort_table tr:nth-child(even) {
+.item_table  tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-#cohort_table tr:hover {
+.item_table  tr:hover {
     background-color: #ddd;
 }
 
-#cohort_table th {
-    padding: 5px;
-    text-align: left;
-    background-color: antiquewhite;
-}
+
+
+
+
+
+
+
+
+
 
 
 .loading_section {
-   
     position: absolute;
     top: 10vh;
-    left: 15vw;
-    width: 85vw;
+    left: 0vw;
+    width: 100vw;
     height: 90vh;
     z-index: 100000;
     margin: auto auto;
@@ -297,6 +357,8 @@ input[type="file"]
 }
 .simple-spinner{
 position: absolute;
+margin: auto;
+justify-content: center;
 top: 50%;
 left: 50%;
 
@@ -346,6 +408,16 @@ left: 50%;
 
 
 
+.navbar__toggle {
+    display: none;
+}
+.phone-nav{
+    width: 15vw;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+}
 
 
 .react-tabs {
@@ -363,9 +435,13 @@ left: 50%;
     padding: 0;
     color: rgb(0, 0, 0);
     background: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
+.react-tabs__tab a{
+     padding: 12px 6px;
+     text-decoration: none;
+     color: black;
 
+}
 .react-tabs__tab {
     /* height: 70px; */
     list-style: none;
@@ -376,8 +452,9 @@ left: 50%;
 
 .react-tabs__tab--selected {
     border-color: #161616;
-    border-left: 5px solid #6eb800;
     color: rgb(0, 0, 0);
+    background:  #91d9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .react-tabs__tab-panel {
@@ -400,3 +477,18 @@ left: 50%;
 .panel-content {
     padding: 20px;
 }
+
+
+
+
+.legend_container{
+    position: absolute;
+    bottom: 10px;
+    z-index: 10000;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+

@@ -1,0 +1,125 @@
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .page_conatiner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar_logo {
+    width: 100px;
+    margin-left: 10vh;
+  }
+
+  .section_heading {
+    /* display: inline; */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .right_content {
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .input_para {
+    height: 300px;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .input_item {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .navbar__toggle {
+    display: block;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    color: #008ecf;
+    position: absolute;
+    top: 0;
+    left: 5vw;
+  }
+  .phone-nav {
+    position: fixed;
+    top: 10vh;
+    left: -100%;
+    color: white;
+    background-color: #212529;
+    width: 100%;
+    height: 100vh;
+    padding: 2rem 0;
+    z-index: 10000000000000000000 !important;
+    transition: 0.5s;
+    overflow-y: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .show {
+    left: 0;
+  }
+
+  .react-tabs__tab {
+    /* height: 70px; */
+    list-style: none;
+    padding: 12px 6px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  .item_table th {
+    padding: 3px;
+    text-align: left;
+    background-color: #91d9fa;
+  }
+  .section_heading h3 {
+    font-size: 16px;
+  }
+  .section_content p {
+    font-size: 14px;
+  }
+  .input_btn {
+    width: 100%;
+  }
+  .input_item_btn button {
+    width: 100%;
+  }
+  .dropdown-menu{
+    width: 100%;
+    z-index: 10000 !important;
+  }
+
+  .item_table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 4px 0px;
+    font-size: 12px;
+  }
+  .item_table p {
+    font-size: 12px;
+  }
+
+  .item_table td,
+  .item_table th {
+    border: 1px solid #ddd;
+    padding: 3px;
+  }
+
+  .legend_container {
+    position: absolute;
+    bottom: 10px;
+    z-index: 10000;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+}

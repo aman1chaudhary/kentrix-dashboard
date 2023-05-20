@@ -1,26 +1,39 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar'
 import Login from './components/Login'
 import Register from './components/Register'
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import Dashboard from './Pages/Dashboard'
-// import Footer from './components/Footer';
-// import MapDashboard from './Pages/MapDashboard';
+import Dashboard from './Pages/Dashboard';
 
 const App = () => {
+  const [user, setLoginUser] = useState(() => {
+    const storedUser = localStorage.getItem('user');
+    try {
+      return storedUser ? JSON.parse(storedUser) : {};
+    } catch (error) {
+      console.error('Error parsing stored user data:', error);
+      return {};
+    }
+  });
+
+  // console.log(user); 
+
+  useEffect(() => {
+    localStorage.setItem('user', JSON.stringify(user));
+    // console.log(user); 
+  }, [user]);
+
+
+
   return (
     <Router>
-        <Navbar/>
+        <Navbar user={user} setLoginUser={setLoginUser}  />
         <Routes>
-          <Route path="/" element={<Dashboard />} />
-          {/* <Route path="/" element={<MapDashboard />} /> */}
-          <Route path="/login" element={<Login />} />
+          <Route path="/"  element={user && user.id ? (<Dashboard user={user} setLoginUser={setLoginUser} />) : (<Login setLoginUser={setLoginUser} />)} />
+          <Route path="/login" element={<Login setLoginUser={setLoginUser} />} />
           <Route path="/register" element={<Register />} />
-  
-
+          <Route path="/add-inventory"  />
         </Routes>
-        {/* <Footer/> */}
-
       </Router>
   )
 }
